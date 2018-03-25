@@ -1,0 +1,11 @@
+<layers>
+    
+    <!-- Disable the Theme layer when uninstalled -->
+    
+    <layer
+        name="xtcs.theme"
+        interface="xtcs.theme.browser.interfaces.IThemeSpecific"
+        remove="True"
+        />
+
+</layers>

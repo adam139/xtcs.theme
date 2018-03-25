@@ -1,0 +1,34 @@
+<configure 
+    xmlns="http://namespaces.zope.org/zope"  
+    xmlns:plone="http://namespaces.plone.org/plone"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="xtcs.theme">
+  <include package="plone.app.theming" />      
+  <include package="Products.CMFCore" file="permissions.zcml" />  
+  <genericsetup:registerProfile
+      name="default"
+      title="xtcs.theme"
+      directory="profiles/default"
+      description='Diazo theme for xtcs.theme'
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+  <!-- -*- extra stuff goes here -*- -->
+  <genericsetup:registerProfile
+      name="registerless"
+      title="xtcs  Theme - Register less resources as variables"
+      directory="profiles/registerless"
+      description='This enables the compilation with the default scripts for custom Diazo themes.'
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+  <!-- Diazo themes -->
+  <plone:static directory="theme" name="xtcs.theme" type="theme"/>  
+  <genericsetup:registerProfile
+      name="uninstall"
+      title="uninstall xtcs.theme"
+      directory="profiles/uninstall"
+      description="Uninstalls xtcs.theme package"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+   <include package=".browser"/>
+</configure>
