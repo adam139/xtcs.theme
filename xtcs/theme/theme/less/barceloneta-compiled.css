@@ -564,33 +564,33 @@ pre code {
 .container {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 9px;
+  padding-right: 9px;
 }
 @media (min-width: 768px) {
   .container {
-    width: 740px;
+    width: 738px;
   }
 }
 @media (min-width: 992px) {
   .container {
-    width: 960px;
+    width: 958px;
   }
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1160px;
+    width: 1158px;
   }
 }
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 9px;
+  padding-right: 9px;
 }
 .row {
-  margin-left: -10px;
-  margin-right: -10px;
+  margin-left: -9px;
+  margin-right: -9px;
 }
 .row:before,
 .row:after {
@@ -603,8 +603,8 @@ pre code {
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 9px;
+  padding-right: 9px;
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
   float: left;
@@ -1239,24 +1239,24 @@ pre code {
 #edit-zone.plone-toolbar-top .plone-toolbar-container {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 9px;
+  padding-right: 9px;
   margin: 0 auto;
   height: 50px;
 }
 @media (min-width: 768px) {
   #edit-zone.plone-toolbar-top .plone-toolbar-container {
-    width: 740px;
+    width: 738px;
   }
 }
 @media (min-width: 992px) {
   #edit-zone.plone-toolbar-top .plone-toolbar-container {
-    width: 960px;
+    width: 958px;
   }
 }
 @media (min-width: 1200px) {
   #edit-zone.plone-toolbar-top .plone-toolbar-container {
-    width: 1160px;
+    width: 1158px;
   }
 }
 #edit-zone.plone-toolbar-top.compressed .plone-toolbar-container {
@@ -2568,8 +2568,9 @@ fieldset[disabled] .link-parent.active {
   border-radius: 0 0 4px 4px;
 }
 .portlet .portletHeader {
-  background: #f2f1f1;
+  background: url(http://images.315ok.org/xtcs/images/portletnavbg_7_41.jpg) repeat-x scroll 0 0 transparent;
   font-weight: 500;
+  height: 41px;
   font-size: 18px;
   padding: 13px 15px;
   color: #696969;
@@ -2756,6 +2757,17 @@ fieldset[disabled] .link-parent.active {
   font-weight: 300;
   box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, 0.05);
 }
+.plone-navbar {
+  background: rgba(0, 0, 0, 0) url("http://images.315ok.org/xtcs/images/menubg_4_43.jpg") repeat-x scroll 0 0;
+  border: 1px solid transparent;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.17);
+  color: white;
+  height: 43px;
+  margin-bottom: 20px;
+  margin-top: -7px;
+  min-height: 43px;
+  position: relative;
+}
 .portletNavigationTree nav.portletContent > ul > li a {
   padding: 10px 15px 10px 15px;
   border-top: 1px solid #e5e5e5;
@@ -2862,8 +2874,9 @@ fieldset[disabled] .link-parent.active {
   border-radius: 0 0 4px 4px;
 }
 .managedPortlet .portletHeader {
-  background: #f2f1f1;
+  background: url(http://images.315ok.org/xtcs/images/portletnavbg_7_41.jpg) repeat-x scroll 0 0 transparent;
   font-weight: 500;
+  height: 41px;
   font-size: 18px;
   padding: 13px 15px;
   color: #696969;
@@ -3418,8 +3431,8 @@ body#visual-portal-wrapper.pat-plone #edit-zone .contenttype--my315ok-products-p
   outline: none;
   background-clip: padding-box;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 9px;
+  padding-right: 9px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -3429,17 +3442,17 @@ body#visual-portal-wrapper.pat-plone #edit-zone .contenttype--my315ok-products-p
 }
 @media (min-width: 768px) {
   .plone-modal .plone-modal-content {
-    width: 740px;
+    width: 738px;
   }
 }
 @media (min-width: 992px) {
   .plone-modal .plone-modal-content {
-    width: 960px;
+    width: 958px;
   }
 }
 @media (min-width: 1200px) {
   .plone-modal .plone-modal-content {
-    width: 1160px;
+    width: 1158px;
   }
 }
 .plone-modal.fade {
@@ -3696,7 +3709,7 @@ ul.picker__list {
   padding-top: 20px;
   clear: left;
   width: 67%;
-  position: absolute;
+  position: relative;
   z-index: 2;
   margin-left: 3px;
   margin-top: 60px;
@@ -3798,9 +3811,11 @@ ul.picker__list {
 }
 .plone-navbar {
   background-color: #007bb1;
+  background: rgba(0, 0, 0, 0) url("http://images.315ok.org/xtcs/images/menubg_4_43.jpg") repeat-x scroll 0 0;
+  height: 43px;
   color: white;
   position: relative;
-  min-height: 50px;
+  min-height: 43px;
   margin-bottom: 20px;
   border: 1px solid transparent;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.17);
@@ -3828,8 +3843,8 @@ ul.picker__list {
 }
 .plone-navbar-collapse {
   overflow-x: visible;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 9px;
+  padding-left: 9px;
   border-top: 1px solid transparent;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
   -webkit-overflow-scrolling: touch;
@@ -3911,7 +3926,7 @@ ul.picker__list {
   }
 }
 .plone-navbar-nav {
-  margin: -1px -10px -1px;
+  margin: -1px -9px -1px;
 }
 .plone-navbar-nav > li > a {
   padding-top: 10px;
@@ -3932,11 +3947,11 @@ ul.picker__list {
     float: left;
   }
   .plone-navbar-nav > li > a {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 11.5px;
+    padding-bottom: 11.5px;
   }
   .plone-navbar-nav.navbar-right:last-child {
-    margin-right: -10px;
+    margin-right: -9px;
   }
 }
 .principal {
@@ -3993,67 +4008,68 @@ a.plone-toolbar-logo {
 }
 @media (min-width: 768px) {
   .container {
-    width: 740px;
+    width: 738px;
   }
 }
 @media (min-width: 992px) {
   .container {
-    width: 960px;
+    width: 958px;
   }
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1160px;
+    width: 1158px;
   }
 }
 @media (min-width: 768px) {
   .plone-toolbar-top-default .container {
-    width: 740px;
+    width: 738px;
   }
 }
 @media (min-width: 828px) {
   .plone-toolbar-left-default .container {
-    width: 740px;
+    width: 738px;
   }
 }
 @media (min-width: 888px) {
   .plone-toolbar-left-expanded .container {
-    width: 740px;
+    width: 738px;
   }
 }
 @media (min-width: 992px) {
   .plone-toolbar-top-default .container {
-    width: 960px;
+    width: 958px;
   }
 }
 @media (min-width: 1052px) {
   .plone-toolbar-left-default .container {
-    width: 960px;
+    width: 958px;
   }
 }
 @media (min-width: 1112px) {
   .plone-toolbar-left-expanded .container {
-    width: 960px;
+    width: 958px;
   }
 }
 @media (min-width: 1200px) {
   .plone-toolbar-top-default .container {
-    width: 1160px;
+    width: 1158px;
   }
 }
 @media (min-width: 1260px) {
   .plone-toolbar-left-default .container {
-    width: 1160px;
+    width: 1158px;
   }
 }
 @media (min-width: 1320px) {
   .plone-toolbar-left-expanded .container {
-    width: 1160px;
+    width: 1158px;
   }
 }
 #portal-footer-wrapper {
   padding: 20px 15px;
-  background-color: #007BB1;
+  background-color: transparent;
+  background: url(http://images.315ok.org/xtcs/images/footerbg_10_160.jpg) repeat-x;
   color: #fafafa;
   text-align: center;
   clear: both;
@@ -4154,8 +4170,9 @@ body.template-logged_out #content-core > :last-child {
 }
 body.template-login_form #content-core .portletHeader,
 body.template-logged_out #content-core .portletHeader {
-  background: #f2f1f1;
+  background: url(http://images.315ok.org/xtcs/images/portletnavbg_7_41.jpg) repeat-x scroll 0 0 transparent;
   font-weight: 500;
+  height: 41px;
   font-size: 18px;
   padding: 13px 15px;
   color: #696969;

@@ -8,8 +8,9 @@
 	> :first-child {border-radius: 4px 4px 0 0;}
 	> :last-child {border-radius: 0 0 4px 4px;}
 	.portletHeader {
-		background: @plone-portlet-header-bg;
+		background: url(http://images.315ok.org/xtcs/images/portletnavbg_7_41.jpg) repeat-x scroll 0 0 transparent;
 		font-weight: @plone-font-weight-bold;
+		height:41px;
 		font-size: @plone-font-size-large;
 		padding: 13px 15px;
 		color: @plone-portlet-header-color;
@@ -105,7 +106,18 @@
 		box-shadow: inset 0 10px 10px -10px rgba(0,0,0,.05);
 	}
 }
-
+//*// homepage portlet
+.plone-navbar {
+    background: rgba(0, 0, 0, 0) url("http://images.315ok.org/xtcs/images/menubg_4_43.jpg") repeat-x scroll 0 0;
+    border: 1px solid transparent;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.17);
+    color: white;
+    height: 43px;
+    margin-bottom: 20px;
+    margin-top: -7px;
+    min-height: 43px;
+    position: relative;
+}
 
 //*// Navigation
 .portletNavigationTree nav.portletContent > ul > li a { padding: 10px 15px 10px 15px; border-top: @plone-portlet-border;}
