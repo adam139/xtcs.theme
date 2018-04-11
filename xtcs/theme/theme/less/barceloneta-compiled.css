@@ -2268,7 +2268,7 @@ fieldset[disabled] .link-parent.active {
   text-decoration: none;
   color: #007bb1;
   background-color: #fff;
-  border: 1px solid #e5e5e5;
+  border: 1px solid #f23e03;
   margin-left: -1px;
 }
 .listingBar > li:first-child > a {
@@ -2284,7 +2284,7 @@ fieldset[disabled] .link-parent.active {
 .listingBar > li a:focus {
   color: #004665;
   background-color: #f2f1f1;
-  border-color: 1px solid #e5e5e5;
+  border-color: 1px solid #f23e03;
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }
@@ -2303,7 +2303,7 @@ fieldset[disabled] .link-parent.active {
 .listingBar > .disabled > a:focus {
   color: #cccccc;
   background-color: #fcfcfd;
-  border-color: 1px solid #e5e5e5;
+  border-color: 1px solid #f23e03;
   cursor: default;
 }
 @media (max-width: 480px) {
@@ -2319,7 +2319,7 @@ fieldset[disabled] .link-parent.active {
 .autotabs {
   background: #fff;
   padding: 6px 12px;
-  border: 1px solid #e5e5e5;
+  border: 1px solid #f23e03;
   margin-bottom: 20px;
   border-radius: 4px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
@@ -2327,7 +2327,7 @@ fieldset[disabled] .link-parent.active {
 .pat-autotoc.autotabs .autotoc-nav,
 .autotabs .autotoc-nav {
   background: #f2f1f1;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #f23e03;
   margin: -6px -12px 6px;
 }
 .pat-autotoc.autotabs .autotoc-nav a,
@@ -2335,7 +2335,7 @@ fieldset[disabled] .link-parent.active {
   display: inline-block;
   padding: 12px;
   margin: 6px 0 0 6px;
-  border: 1px solid #e5e5e5;
+  border: 1px solid #f23e03;
   margin-bottom: -1px;
   border-radius: 4px 4px 0 0;
   background: #fcfcfd;
@@ -2438,7 +2438,7 @@ fieldset[disabled] .link-parent.active {
   display: table-cell;
   font-weight: 300;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-  border: 1px solid #e5e5e5;
+  border: 1px solid #f23e03;
   border-radius: 4px;
   background: #fcfcfd;
   width: 220px;
@@ -2556,7 +2556,7 @@ fieldset[disabled] .link-parent.active {
 }
 */
 .portlet {
-  border: 1px solid #e5e5e5;
+  border: 1px solid #f23e03;
   margin-bottom: 20px;
   border-radius: 4px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
@@ -2607,7 +2607,7 @@ fieldset[disabled] .link-parent.active {
 }
 .portlet .portletContent {
   font-size: 14px;
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #f23e03;
   background: #fff;
   font-weight: 300;
 }
@@ -2631,7 +2631,7 @@ fieldset[disabled] .link-parent.active {
   color: #086ca3;
 }
 .portlet .portletContent > ul > li > a {
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #f23e03;
 }
 .portlet .portletContent > ul > li:first-child > a {
   border-top: 0;
@@ -2676,7 +2676,7 @@ fieldset[disabled] .link-parent.active {
 }
 .portlet .portletContent table thead {
   background: #fcfcfd;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #f23e03;
 }
 .portlet .portletContent table thead th {
   color: #696969;
@@ -2750,7 +2750,7 @@ fieldset[disabled] .link-parent.active {
   box-shadow: none;
 }
 .portlet .portletFooter {
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #f23e03;
   background: #fcfcfd;
   padding: 10px 15px;
   font-size: 12px;
@@ -2770,11 +2770,11 @@ fieldset[disabled] .link-parent.active {
 }
 .portletNavigationTree nav.portletContent > ul > li a {
   padding: 10px 15px 10px 15px;
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #f23e03;
 }
 .portletNavigationTree nav.portletContent > ul > li strong {
   padding: 10px 15px 10px 15px;
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #f23e03;
   background: #fcfcfd;
   color: #696969;
   display: block;
@@ -2862,7 +2862,7 @@ fieldset[disabled] .link-parent.active {
   display: inline-block;
 }
 .managedPortlet {
-  border: 1px solid #e5e5e5;
+  border: 1px solid #f23e03;
   margin-bottom: 20px;
   border-radius: 4px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
@@ -2913,7 +2913,7 @@ fieldset[disabled] .link-parent.active {
 }
 .managedPortlet .portletContent {
   font-size: 14px;
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #f23e03;
   background: #fff;
   font-weight: 300;
 }
@@ -2937,7 +2937,7 @@ fieldset[disabled] .link-parent.active {
   color: #086ca3;
 }
 .managedPortlet .portletContent > ul > li > a {
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #f23e03;
 }
 .managedPortlet .portletContent > ul > li:first-child > a {
   border-top: 0;
@@ -2982,7 +2982,7 @@ fieldset[disabled] .link-parent.active {
 }
 .managedPortlet .portletContent table thead {
   background: #fcfcfd;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #f23e03;
 }
 .managedPortlet .portletContent table thead th {
   color: #696969;
@@ -3056,7 +3056,7 @@ fieldset[disabled] .link-parent.active {
   box-shadow: none;
 }
 .managedPortlet .portletFooter {
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #f23e03;
   background: #fcfcfd;
   padding: 10px 15px;
   font-size: 12px;
@@ -3816,7 +3816,7 @@ ul.picker__list {
   color: white;
   position: relative;
   min-height: 43px;
-  margin-bottom: 20px;
+  margin-bottom: 0;
   border: 1px solid transparent;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.17);
 }
@@ -3973,7 +3973,8 @@ ul.picker__list {
   font-size: 150%;
 }
 #content {
-  margin-bottom: 48px;
+  margin-bottom: 24px;
+  background-color: #fff;
 }
 #content-core a {
   border-bottom: 1px solid #cccccc;
@@ -4151,7 +4152,7 @@ a.plone-toolbar-logo {
 }
 body.template-login_form #content-core,
 body.template-logged_out #content-core {
-  border: 1px solid #e5e5e5;
+  border: 1px solid #f23e03;
   margin-bottom: 20px;
   border-radius: 4px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
@@ -4217,7 +4218,7 @@ body.template-logged_out #content-core.portletCalendar .portletHeader .calendarN
 body.template-login_form #content-core .portletContent,
 body.template-logged_out #content-core .portletContent {
   font-size: 14px;
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #f23e03;
   background: #fff;
   font-weight: 300;
 }
@@ -4246,7 +4247,7 @@ body.template-logged_out #content-core .portletContent > ul > li a {
 }
 body.template-login_form #content-core .portletContent > ul > li > a,
 body.template-logged_out #content-core .portletContent > ul > li > a {
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #f23e03;
 }
 body.template-login_form #content-core .portletContent > ul > li:first-child > a,
 body.template-logged_out #content-core .portletContent > ul > li:first-child > a {
@@ -4300,7 +4301,7 @@ body.template-logged_out #content-core .portletContent table tr {
 body.template-login_form #content-core .portletContent table thead,
 body.template-logged_out #content-core .portletContent table thead {
   background: #fcfcfd;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #f23e03;
 }
 body.template-login_form #content-core .portletContent table thead th,
 body.template-logged_out #content-core .portletContent table thead th {
@@ -4395,7 +4396,7 @@ body.template-logged_out #content-core .formControls {
 }
 body.template-login_form #content-core .portletFooter,
 body.template-logged_out #content-core .portletFooter {
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #f23e03;
   background: #fcfcfd;
   padding: 10px 15px;
   font-size: 12px;
@@ -4415,7 +4416,7 @@ body.template-logged_out #content-core .portletFooter {
 }
 #portal-sitemap > li {
   font-size: 18px;
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #f23e03;
   padding: 6px 0;
 }
 #portal-sitemap ul {
@@ -4457,7 +4458,7 @@ body.template-logged_out #content-core .portletFooter {
   display: block;
 }
 .event_listing article {
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #f23e03;
   padding: 12px 0 12px;
 }
 .event_listing article h2 {
@@ -4687,7 +4688,7 @@ body.template-logged_out #content-core .portletFooter {
   text-align: right;
 }
 .discussion .reply {
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #f23e03;
 }
 .cancelreplytocomment {
   /* Hide the cancel button in the comment form, show it only in the reply form
