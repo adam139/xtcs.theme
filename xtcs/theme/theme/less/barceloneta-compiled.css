@@ -325,7 +325,7 @@ body {
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #007BB1;
+  color: #000001;
   background-color: #fafafa;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1625,7 +1625,7 @@ fieldset[disabled] input[type="checkbox"] {
 .formHelp {
   margin-top: 0;
   margin-bottom: 0;
-  color: #009ee4;
+  color: #000034;
   font-weight: 300;
   font-style: italic;
 }
@@ -2185,16 +2185,16 @@ fieldset[disabled] .link-parent.active {
 }
 .plone-breadcrumb {
   clear: left;
-  background-color: #e6e4e4;
+  background-color: #ed4715;
   margin-bottom: 20px;
-  margin-top: -20px;
+  margin-top: 0;
   /* uncomment to hide breadcrumbs on home
   body.section-front-page & {display: none;} //not breadcrumbs on homepage
   */
 }
 .plone-breadcrumb > * > span {
   display: inline-block;
-  color: #777777;
+  color: #fff;
   padding: 8px 0;
   font-weight: 300;
 }
@@ -2220,7 +2220,7 @@ fieldset[disabled] .link-parent.active {
   content: "";
   position: absolute;
   padding: 0 5px;
-  color: #e6e4e4;
+  color: #ed4715;
   border-left: 5px solid;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
@@ -2232,7 +2232,7 @@ fieldset[disabled] .link-parent.active {
   content: "";
   position: absolute;
   padding: 0 5px;
-  color: #cccccc;
+  color: #ffffff;
   border-left: 5px solid;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
@@ -2241,7 +2241,7 @@ fieldset[disabled] .link-parent.active {
   padding: 0 !important;
 }
 .plone-breadcrumb ol a {
-  color: #086ca3;
+  color: #fff;
 }
 .plone-breadcrumb ol > #breadcrumbs-current {
   color: #777777;
@@ -3843,7 +3843,7 @@ ul.picker__list {
 }
 .plone-navbar-collapse {
   overflow-x: visible;
-  background-color: #dc0000;
+  background-color: #f9636e;
   padding-right: 9px;
   padding-left: 9px;
   border-top: 1px solid transparent;
@@ -3956,7 +3956,7 @@ ul.picker__list {
   }
 }
 .principal {
-  background: #d9d7d7;
+  background: #d83f11;
   background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.1) 14%, transparent 14%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 64%, transparent 64%, transparent);
   background-size: 20px 20px;
   margin-top: -20px;
