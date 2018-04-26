@@ -89,7 +89,7 @@
   <!-- Left column -->
   <rules css:if-content="#portal-column-one">
     <replace css:theme="#column1-container">
-      <div class="col-xs-12 col-sm-3 sidebar-offcanvas">
+	  <div class="hidden-xs col-sm-3 sidebar-offcanvas">
         <aside id="portal-column-one">
           <xsl:copy-of css:select="#portal-column-one > *" />
         </aside>

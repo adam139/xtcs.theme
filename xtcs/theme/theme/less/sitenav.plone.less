@@ -28,11 +28,12 @@
   .clearfix();
   background-color: @plone-sitenav-bg;
   background: rgba(0, 0, 0, 0) url("http://images.315ok.org/xtcs/images/menubg_4_43.jpg") repeat-x scroll 0 0;
-  height:45px;
+  height:43px;
   color: white;
   position: relative;
   min-height: @plone-sitenav-height; // Ensure a navbar always shows (e.g., without a .navbar-brand in collapsed mode)
   margin-bottom: 0;
+  margin-top:-1px;
   border: 1px solid transparent;
   box-shadow: 0 1px 3px rgba(0,0,0,.17);
 
@@ -150,7 +151,7 @@
 }
 
 .plone-navbar-nav {
-  margin: -5px -@plone-sitenav-padding-horizontal -3px;
+  margin: -1px -@plone-sitenav-padding-horizontal 0px;
 
   > li > a {
     padding-top:    10px;
