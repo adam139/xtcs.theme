@@ -151,7 +151,7 @@
         <p style="text-indent:0;font-size:90%">&copy; 2010-<tal:year 
          tal:define="DateTime nocall:modules/DateTime.DateTime;
                      myTime python:DateTime()"
-         tal:content="python:myTime.year()" />&middot;湘潭市慈善总会<br/><a href="http://www.miibeian.gov.cn/">湘ICP备05003368</a></p>
+         tal:content="python:myTime.year()" />&middot;湘潭市慈善总会<br/><a href="http://www.miibeian.gov.cn/">湘ICP备14005756号-1</a></p>
       </div>
     </div>
     </footer>
