@@ -146,7 +146,7 @@
     <footer id="portal-footer-wrapper" i18n:domain="plone">
      <div  class="homepage-footer row">
  			<!-- FOOTER -->
-      <div class="col-xs-12 col-sm-6 footer">        
+      <div class="col-xs-12 footer">        
         <p class="pull-right"><a href="#">返回顶部</a></p>
         <p style="text-indent:0;font-size:90%">&copy; 2010-<tal:year 
          tal:define="DateTime nocall:modules/DateTime.DateTime;
