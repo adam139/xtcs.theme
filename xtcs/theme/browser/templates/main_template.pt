@@ -146,20 +146,19 @@
     <footer id="portal-footer-wrapper" i18n:domain="plone">
      <div  class="homepage-footer row">
  			<!-- FOOTER -->
-      <div class="col-xs-12 col-sm-6 footer">
+      <div class="col-xs-12 col-sm-6 footer">        
         <p class="pull-right"><a href="#">返回顶部</a></p>
         <p style="text-indent:0;font-size:90%">&copy; 2010-<tal:year 
          tal:define="DateTime nocall:modules/DateTime.DateTime;
                      myTime python:DateTime()"
-         tal:content="python:myTime.year()" />&middot;湘潭市慈善总会<br/><a href="http://www.miibeian.gov.cn/">湘ICP备14005756号-1</a>
-        </p>
-      </div>
-      <div class="col-xs-12 col-sm-6 footer" style="width:300px;margin:0 auto; padding:20px 0;">
-		 <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=43030202001153" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+         tal:content="python:myTime.year()" />&middot;湘潭市慈善总会<br/>
+         <a target="_blank" href="http://www.miibeian.gov.cn/">湘ICP备14005756号-1</a>
+         <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=43030202001153" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
 		 	<img src="http://images.315ok.org/xtcs/images/wangan.png" style="float:left;"/>
 		 	<p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">湘公网安备 43030202001153号</p>
 		 </a>
-	  </div>
+        </p>
+      </div>
     </div>
     </footer>
 	<div id="bottom-js" class="hidden">
