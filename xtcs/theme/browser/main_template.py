@@ -1,10 +1,8 @@
 
-from zope.interface import implements
-
+from Products.CMFPlone.browser.interfaces import IMainTemplate
 from Products.Five import BrowserView
 from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
-
-from Products.CMFPlone.browser.interfaces import IMainTemplate
+from zope.interface import implements
 
 
 class MainTemplate(BrowserView):

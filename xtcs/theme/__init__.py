@@ -1,3 +1,4 @@
 import logging
-logger = logging.getLogger('xtcs.theme')
 
+
+logger = logging.getLogger('xtcs.theme')
