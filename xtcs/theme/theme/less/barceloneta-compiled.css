@@ -1648,7 +1648,6 @@ label .required:after {
   line-height: 0;
   position: relative;
   top: 7px;
-  margin-left: -4px;
 }
 .searchField.portlet-search-gadget,
 #sharing-user-group-search,
