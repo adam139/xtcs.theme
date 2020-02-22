@@ -15,23 +15,20 @@
     <before css:theme="title" css:content="base" />
     <!-- Title -->
     <replace css:theme="title" css:content="title" />
-    <!-- Pull in Plone Meta -->
-    <after css:theme-children="head" css:content="head meta" />
     <!-- Don't use Plone icons, use the theme's -->
     <drop css:content="head link[rel='apple-touch-icon']" />
     <drop css:content="head link[rel='shortcut icon']" />
     <drop css:content="head meta[name='generator']" />
+    <!-- Pull in Plone Meta -->
+    <after css:theme-children="head" css:content="head meta" />    
     <!-- CSS -->
     <after css:theme-children="head" css:content="head link" />
     <!-- Script -->
-
-    <after css:theme-children="head" css:content="head script" />
-   	
+    <after css:theme-children="head" css:content="head script" />   	
   </rules>
 
   <!-- Copy over the id/class attributes on the body tag. This is important for per-section styling -->
   <copy attributes="*" css:content="body" css:theme="body" />
-
   <!-- move global nav -->
   <copy css:theme=".navbar-brand" css:content="#portal-logo" attributes="href"/>
   <replace css:theme="#nav" css:content-children="#portal-globalnav-collapse" method="raw" />
@@ -42,7 +39,6 @@
 <!-- anonymous action -->
 <!--  <replace css:theme="#anonymous-actions" css:content-children="#portal-personaltools-wrapper" css:if-not-content=".ajax_load" css:if-content=".userrole-anonymous" />
 -->
-    <replace css:theme-children="#outlink" css:if-not-content=".ajax_load" css:content-children="#portaltab-diancijisuanji" />   
     <drop css:theme="#secondary-nav" css:if-not-content=".userrole-anonymous"/>
     
     <replace css:theme-children="#secondary-nav" css:if-not-content=".ajax_load" css:if-content=".userrole-anonymous">
@@ -96,6 +92,9 @@
       </div>
     </replace>
   </rules>
+  <rules css:if-not-content="#portal-column-one">
+    <drop css:theme="#column1-container"/>
+  </rules>  
 
   <!-- Right column -->
   <rules css:if-content="#portal-column-two">
@@ -107,7 +106,9 @@
       </div>
     </replace>
   </rules>
-
+  <rules css:if-not-content="#portal-column-two">
+    <drop css:theme="#column2-container"/>
+  </rules> 
   <!-- Content header -->
   <replace css:theme="#portal-top" css:content-children="#portal-top" />
 
