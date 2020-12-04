@@ -151,8 +151,8 @@
         <p style="text-indent:0;font-size:90%">&copy; 2010-<tal:year 
          tal:define="DateTime nocall:modules/DateTime.DateTime;
                      myTime python:DateTime()"
-         tal:content="python:myTime.year()" />&middot;湘潭市慈善总会<br/><a target="_blank" href="http://www.beian.miit.gov.cn/">
-        湘ICP备14005756号-1</a> <a target="_blank" href="http://www.beian.miit.gov.cn/">备案查询</a><br/>
+         tal:content="python:myTime.year()" />&middot;湘潭市慈善总会<br/><a target="_blank" href="https://beian.miit.gov.cn/">
+        湘ICP备14005756号-1</a> <a target="_blank" href="https://beian.miit.gov.cn/">备案查询</a><br/>
          <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=43030202001153" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
 		 	<img src="http://images.315ok.org/xtcs/images/wangan.png" alt="wang an" style="float:left;margin-right:5px"/>
 		 	湘公网安备 43030202001153号</a>
